@@ -1,0 +1,25 @@
+{
+  "name": "alin-test-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for enabling memory for Claude through a knowledge graph",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "alin-test-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "fastmcp": "^1.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "shx": "^0.3.4",
+    "typescript": "^5.6.2"
+  }
+}

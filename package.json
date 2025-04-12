@@ -1,9 +1,13 @@
 {
-  "name": "mcp-servers",
+  "name": "alin-mcp-servers",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
+  "description": "Model Context Protocol servers",
+  "license": "MIT",
+  "author": "Anthropic, PBC (https://anthropic.com)",
+  "homepage": "https://modelcontextprotocol.io",
+  "bugs": "https://github.com/modelcontextprotocol/servers/issues",
   "workspaces": [
     "src/*"
   ],
@@ -15,12 +19,6 @@
     "link-all": "npm link --workspaces"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alinflorin/mcp-servers/issues"
-  },
-  "homepage": "https://github.com/alinflorin/mcp-servers#readme",
   "dependencies": {
     "alin-test-mcp": "*"
   }

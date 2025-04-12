@@ -1,1 +1,3 @@
 # mcp-servers
+
+(c) Anthropic

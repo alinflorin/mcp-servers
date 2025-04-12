@@ -12,7 +12,9 @@
   ],
   "scripts": {
     "build": "tsc && shx chmod +x dist/*.js",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "dev": "fastmcp dev index.ts",
+    "inspect": "fastmcp inspect index.ts"
   },
   "dependencies": {
     "fastmcp": "^1.21.0"
